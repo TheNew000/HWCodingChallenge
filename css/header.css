@@ -1,0 +1,82 @@
+header {
+    background-color: #101010;
+    height: 50px;
+    width: auto;
+}
+
+img {
+    width: 1.5em;
+}
+
+.brand {
+    float: left;
+    height: 50px;
+    margin-left: 16px;
+}
+
+.brand h2 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    width: 175px;
+    height: 100%;
+    background: transparent;
+}
+
+.name {
+    display: inline-block;
+    margin-right: 15px;
+    -webkit-transition: margin-right 200ms;
+    transition: margin-right 200ms;
+}
+
+.profile-pic {
+    cursor: pointer;
+    margin-right: 15px;
+    width: 2em;
+    border-radius: 50px;
+    border: 3px solid #1272b2;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.close-x {
+    position: absolute;
+    right: 22px;
+    opacity: 0;
+    transform: scale(0);
+    cursor: pointer;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}   
+
+.drop-down {
+    color:  black;
+    float: right;
+    width: 175px;
+    height: 0px;
+    overflow: hidden;
+    box-shadow: 0 0 40px #a0a0a0;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.d-d-item {
+    margin: 35px auto;
+    margin-left: -37px;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: margin-left 250ms, opacity 200ms;
+    transition: margin-left 250ms, opacity 200ms;
+}
+
+.d-d-item:first-child {
+    margin-top: 15px;
+}
